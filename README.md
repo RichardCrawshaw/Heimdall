@@ -1,5 +1,5 @@
 # Heimdall
-A diagnostics application for CBUS^(r)^, written in .NET 6. It is intended to be cross-platform, but 
+A diagnostics application for CBUS(r), written in .NET 6. It is intended to be cross-platform, but 
 will initially target Windows, as that is what I have most experience with.
 
 ## The Name
@@ -7,11 +7,11 @@ Heimdall is the Norse God who keeps watch for invaders and the onset of Ragnarök
 seemed the closest to monitoring while keeping to the theme of Norse Mythology with gods and godesses 
 for applications and places for libraries.
 
-## Initial CBUS^(r)^ Diagnostics
-It is still early days for formal diagnostics for CBUS^(r)^. There is (hopefully) an initial spec in the 
+## Initial CBUS(r) Diagnostics
+It is still early days for formal diagnostics for CBUS(r). There is (hopefully) an initial spec in the 
 process of being written, but beyond that there is no explicit support.
 
-However, it is possible using the CBUS^(r)^ communication specification it should be possible with 
+However, it is possible using the CBUS(r) communication specification it should be possible with 
 existing modules to implement a basic ping test. Version 6c states that each module should respond to a 
 QNN (Query Node Number) message with a PNN (Query Node Number Response) message. So if a QNN is sent on
 a regular basis, every minute or so, it will be possible to determine which modules are present, and 
@@ -21,9 +21,9 @@ In its initial form Heimdall will implement this regular ping and report any cha
 respond.
 
 ## Future Development
-It is intended that Heimdall will develop as CBUS^(r)^ Diagnostics develops. Furthermore it is hoped that 
-by creating a CBUS^(r)^ Diagnostics application it will help cement the use of diagnostics in future 
-CBUS^(r)^ modules and encourage the update of existing firmware and or the generation of new firmware for 
+It is intended that Heimdall will develop as CBUS(r) Diagnostics develops. Furthermore it is hoped that 
+by creating a CBUS(r) Diagnostics application it will help cement the use of diagnostics in future 
+CBUS(r) modules and encourage the update of existing firmware and or the generation of new firmware for 
 current modules to incorporate diagnostics.
 
 ## Colaboration
